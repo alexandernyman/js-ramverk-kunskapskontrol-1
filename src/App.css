@@ -1,9 +1,17 @@
+:root{
+
+  background-color: coral;
+}
+
+
 .App {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
   font-size: 3em;
+  color: #fff;
+  text-shadow: 4px 4px black;
 }
 form {
   display: flex;
@@ -26,6 +34,11 @@ form {
   font-weight: 700;
   padding: 7px;
   margin: 10px;
+  cursor: pointer;
+}
+.form-button:hover{
+  transition: 0.3s;
+  opacity: 0.6;
 }
 
 .completed {
@@ -33,7 +46,6 @@ form {
 }
 
 .todo-container{
-  background-color: coral;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -50,10 +62,12 @@ form {
 .todo-items{
   display: flex;
   justify-content: center;
-  padding: 20px;
-  margin: 20px;
+  padding: 20px 40px;
+  margin: 10px;
   background: white;
   font-size: 2rem;
+  border: 2px solid black;
+
 }
 
 .todo-item{
@@ -64,6 +78,13 @@ form {
 .todo-buttons{
   padding: 10px 20px;
   font-size: 1.5rem;
+  cursor: pointer;
+  background: #fff;
+  margin: 3px;
 }
+  .todo-buttons:hover{
+    transition: 0.3s;
+    opacity: 0.7;
+  }
 
 
